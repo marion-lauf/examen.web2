@@ -26,25 +26,25 @@ get_header(); ?>
 
 <section class="elements-rassurance">
 	<div class="row">
-	  <div class="large-3 medium-2 small-1 columns">
+	  <div class="large-3 medium-6 small-12 columns">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-diamant.png" alt="elements de rassurance" class="pictos-rassurance"/>
 			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Pièces uniques <br/>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Sur mesure</p>
 		</div>
 
-		<div class="large-3 columns">
+		<div class="large-3 medium-6 small-12 columns">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-madeinfrance.png" alt="elements de rassurance" class="pictos-rassurance"/>
 			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Fabrication Artisanale <br/>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> 100% Française</p>
 		</div>
 
-	  <div class="large-3 columns">
+	  <div class="large-3 medium-6 small-12 columns">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-manuel.png" alt="elements de rassurance" class="pictos-rassurance"/>
 			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> 6 ans d’expérience <br/>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Réalisations faites main</p>
 		</div>
 
-	  <div class="large-3 columns">
+	  <div class="large-3 medium-6 small-12 columns">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-qualite.png" alt="elements de rassurance" class="pictos-rassurance"/>
 			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Testés et approuvés <br/>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Matériaux nobles</p>
@@ -61,7 +61,7 @@ get_header(); ?>
 				$args = array( 'numberposts' => 3, 'order'=> 'ASC', 'orderby' => 'title' );
 				$postslist = get_posts( $args );
 				foreach ($postslist as $post) :  setup_postdata($post); ?>
-				<div class="large-4 columns end extrait-page">
+				<div class="large-4 medium-6 small-12 columns end extrait-page">
 					<?php the_post_thumbnail(); ?>
 					<a class="h1-title" href="<?php the_permalink(); ?>" title="<?php the_title();?>"> <?php the_title(); ?></a><br>
 					<?php the_excerpt(); ?>
@@ -81,7 +81,7 @@ get_header(); ?>
 				$args = array( 'numberposts' => 3, 'order'=> 'ASC', 'orderby' => 'title' );
 				$postslist = get_posts( $args );
 				foreach ($postslist as $post) :  setup_postdata($post); ?>
-				<div class="large-4 columns end extrait-page">
+				<div class="large-4 medium-6 small-12 columns end extrait-page">
 					<?php the_post_thumbnail(); ?>
 					<a class="h1-title" href="<?php the_permalink(); ?>" title="<?php the_title();?>"> <?php the_title(); ?></a><br>
 					<?php the_excerpt(); ?>
