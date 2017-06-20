@@ -7,17 +7,61 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-
 ?>
 
 		</section>
 		<div class="footer-container" data-sticky-footer>
 			<footer class="footer">
+
+
+				<section class="elements-rassurance">
+					<div class="row">
+					  <div class="large-3 columns">
+							<h4>coordonnées</h4>
+							<h5>5 rue du César Julien
+									67200 STRASBOURG - 06 74 86 02 59
+									structures.interieures@gmail.com</h5>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icone-facebook.png" alt="puce" class="puce"/>
+						</div>
+
+						<div class="large-3 columns">
+							<h4>à propos</h4>
+							<h5>CGU</h5>
+							<h5>Mentions légales</h5>
+							<h5>Copyright 2017</h5>
+						</div>
+
+					  <div class="large-3 columns">
+							<h4>service client</h4>
+							<h5>Contactez la société</h5>
+							<h5>FAQ</h5>
+						</div>
+
+					  <div class="large-3 columns">
+							<h4>abonnement</h4>
+							<h5>Abonnez-vous à la Newsletter
+								et reçevez nos offres avantageuses
+								en avant-première</h5>
+
+								<div class="input-group">
+								  <input class="input-group-field" type="text">
+								  <div class="input-group-button">
+								    <input type="submit" class="button" value="Submit">
+								  </div>
+								</div>
+						</div>
+					</div>
+				</section>
+
+
+
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
 		</div>
+
+
 
 		<?php do_action( 'foundationpress_layout_end' ); ?>
 
@@ -30,8 +74,9 @@
 <?php wp_footer(); ?>
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
 
-	<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.12'><\/script>".replace("HOST", location.hostname));//]]>
-	</script>
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.12'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
 </body>
 </html>

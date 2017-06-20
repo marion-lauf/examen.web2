@@ -39,19 +39,27 @@
 		</div>
 
 
-		<nav class="site-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</div>
-			</div>
+		</div>
+				<nav>
+						<div class="row">
+							<div class="large-3 columns text-left">
+								<div class="site-desktop-title top-bar-title">
+									<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" class="logo" /></a>
+								</div>
+							</div>
 
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
-			</div>
-		</nav>
-	</header>
+							<div class="top-bar-right">
+								<?php foundationpress_top_bar_r(); ?>
 
-	<section class="container">
-		<?php do_action( 'foundationpress_after_header' );
+								<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
+									<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
+								<?php endif; ?>
+							</div>
+						</div>
+				</nav>
+
+
+			</header>
+
+			<section class="container">
+				<?php do_action( 'foundationpress_after_header' );
