@@ -15,38 +15,39 @@
 
 get_header(); ?>
 
-
-<div class="row">
-	<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slide.png" alt="image de presentation" class="slide"/>
-	<h1>des créations uniques</h1>
-	<a href="#features" class="button">Découvrir</a>
-</div>
+<section class="image-accueil">
+	<div class="row">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slide.png" alt="image de presentation" class="slide"/>
+		<h1 id="creations">des créations uniques</h1>
+		<a href="#features" class="button" id="decouvrir">Découvrir</a>
+	</div>
+</section>
 
 
 <section class="elements-rassurance">
 	<div class="row">
 	  <div class="large-3 columns">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-diamant.png" alt="elements de rassurance" class="rassurance"/>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Pièces uniques</p>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Sur mesure</p>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-diamant.png" alt="elements de rassurance" class="pictos-rassurance"/>
+			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Pièces uniques <br/>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Sur mesure</p>
 		</div>
 
 		<div class="large-3 columns">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-madeinfrance.png" alt="elements de rassurance" class="rassurance"/>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Fabrication Artisanale</p>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> 100% Française</p>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-madeinfrance.png" alt="elements de rassurance" class="pictos-rassurance"/>
+			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Fabrication Artisanale <br/>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> 100% Française</p>
 		</div>
 
 	  <div class="large-3 columns">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-manuel.png" alt="elements de rassurance" class="rassurance"/>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> 6 ans d’expérience</p>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Réalisations faites main</p>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-manuel.png" alt="elements de rassurance" class="pictos-rassurance"/>
+			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> 6 ans d’expérience <br/>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Réalisations faites main</p>
 		</div>
 
 	  <div class="large-3 columns">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-qualite.png" alt="elements de rassurance" class="rassurance"/>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Testés et approuvés</p>
-			<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Matériaux nobles</p>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/picto-qualite.png" alt="elements de rassurance" class="pictos-rassurance"/>
+			<p class="points"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Testés et approuvés <br/>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/puce.png" alt="puce" class="puce"/> Matériaux nobles</p>
 		</div>
 	</div>
 </section>
