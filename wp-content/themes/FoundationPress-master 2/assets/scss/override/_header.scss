@@ -1,0 +1,29 @@
+.tete{
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+  height: 100px;
+}
+
+.top-bar-title {
+  padding-top: 0.9rem;
+}
+
+header a {
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  color: #a69b59;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+
+}
+
+
+header a:hover {
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  color: #534741;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+}

@@ -75,7 +75,7 @@ get_header(); ?>
 
 <div class="articles">
 	<div class="row">
-			<h2>pièces d'exception</h2>
+			<h2 id="baisse">pièces d'exception</h2>
 			<ul>
 				<?php
 				$args = array( 'numberposts' => 3, 'order'=> 'ASC', 'orderby' => 'title' );
@@ -94,7 +94,7 @@ get_header(); ?>
 
 
 <div class="row">
-	<h2>l'artisan</h2>
+	<h2 id="baisse">l'artisan</h2>
 
 	<div class="large-3 columns">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/avatar.png" alt="puce" class="puce"/>

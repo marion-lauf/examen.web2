@@ -9,32 +9,29 @@
  */
 ?>
 
-		</section>
+<section class="pied">
 		<div class="footer-container" data-sticky-footer>
 			<footer class="footer">
-
-
-				<section class="elements-rassurance">
 					<div class="row">
 					  <div class="large-3 columns">
 							<h4>coordonnées</h4>
 							<h5>5 rue du César Julien
-									67200 STRASBOURG - 06 74 86 02 59
+									67200<br/> STRASBOURG - 06 74 86 02 59<br/>
 									structures.interieures@gmail.com</h5>
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icone-facebook.png" alt="puce" class="puce"/>
+							<a target="_blank" href="https://fr-fr.facebook.com/Structures-Int%C3%A9rieures-541193659275924/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icone-facebook.png" alt="facebook" class="facebook"/></a>
 						</div>
 
 						<div class="large-3 columns">
-							<h4>à propos</h4>
-							<h5>CGU</h5>
-							<h5>Mentions légales</h5>
-							<h5>Copyright 2017</h5>
+							<h4>à propos de "SI"</h4>
+							<a>CGU</a><br/>
+							<a>Mentions légales</a><br/>
+							<a>Copyright 2017</a>
 						</div>
 
 					  <div class="large-3 columns">
 							<h4>service client</h4>
-							<h5>Contactez la société</h5>
-							<h5>FAQ</h5>
+							<a>Contactez la société</a><br/>
+							<a>FAQ</a>
 						</div>
 
 					  <div class="large-3 columns">
@@ -44,14 +41,14 @@
 								en avant-première</h5>
 
 								<div class="input-group">
-								  <input class="input-group-field" type="text">
+								  <input class="input-group-field" type="text" id="abonnement" textarea placeholder="Votre E-mail">
 								  <div class="input-group-button">
-								    <input type="submit" class="button" value="Submit">
+								    <input type="submit" class="button" value="OK" id="ok">
 								  </div>
 								</div>
 						</div>
 					</div>
-				</section>
+	</section>
 
 
 

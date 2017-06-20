@@ -40,6 +40,7 @@
 
 
 		</div>
+		<section class="tete">
 				<nav>
 						<div class="row">
 							<div class="large-3 columns text-left">
@@ -57,7 +58,7 @@
 							</div>
 						</div>
 				</nav>
-
+		</section>		
 
 			</header>
 
